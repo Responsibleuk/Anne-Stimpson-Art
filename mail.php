@@ -7,10 +7,10 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     # Replace this email with your email address
-    $mail_to = "yourmail@example.com";
+    $mail_to = "james@story-x.co.uk";
 
     # Message Subject. You can modify that string with your message.
-    $subject = "Your Website Response";
+    $subject = "StoryX Enquiry";
 
 	# Collect Data
     $name = str_replace(array("\r","\n"),array(" "," ") , strip_tags(trim($_POST["name"])));
